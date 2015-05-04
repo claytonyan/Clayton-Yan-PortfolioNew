@@ -1,0 +1,151 @@
+
+
+/* div and background help*/
+
+div {
+  border: 1px solid transparent;
+}
+
+/* full CSS */
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0em;
+  margin-bottom: 0em;
+}
+
+.masthead-intro,
+.masthead-heading,
+footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url("https://unsplash.imgix.net/photo-1419332563740-42322047ff09?q=75&fm=jpg&s=f1e7d176e154bfe4a511b9ecd95a0a84");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid .5em #365ebf;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetina Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  color: #ffffff;
+}
+
+.introduction,
+.location,
+.moreInfo,
+.projects {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction > p,
+.location > p,
+footer > p {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  margin: 0px;
+}
+
+.projects li {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+.projects img {
+  border: 1px solid #3f3f3f;
+}
+
+.project {
+  margin-left: 3em;
+}
+
+.moreInfo > h3 {
+  font-family: "Open Sans", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.moreInfo {
+  margin-bottom: 3em;
+}
+
+section > h2 {
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+footer {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #365ebf;
+  border-top: 3px solid orange;
+}
+
+footer .content {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+}
+
+.socialIcons > li {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+}
+
+.socialIcons i {
+  margin-top: 30%;
+  color: #ffffff;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 300px) {
+  .masthead-heading {
+    font-size: 2em;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+}
